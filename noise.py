@@ -1,8 +1,8 @@
 import numpy as np
 
-FREQUENCY = .05
-SIZE = int(100 * FREQUENCY)
-AMPLITUDE = 12
+FREQUENCY = .02
+SIZE = int(700 * FREQUENCY)
+AMPLITUDE = 256
 
 def lerp(val1, val2, t):
     return (val2 - val1) * t + val1

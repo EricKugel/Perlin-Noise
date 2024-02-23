@@ -4,6 +4,8 @@ Look up how to use function command in minecraft... it's hard to explain
 
 from noise import *
 
+# If you're gonna run this you gotta tweak the amplitude and frequency and stuff in noise.py
+# (Hi Colten)
 OUTPUT_SIZE = (100, 100)
 # START_COORD = (0, -60, 0)
 START_COORD = (-328, -60, -136)

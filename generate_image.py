@@ -6,9 +6,7 @@ from PIL import Image
 
 from noise import *
 
-# If you're gonna run this change the amplitude to 256 in noise.py
-# (Hi Colten)
-OUTPUT_SIZE = (100, 100)
+OUTPUT_SIZE = (700, 700)
 
 # noise = Noise1D()
 # x = np.linspace(0, 6, 1000)
