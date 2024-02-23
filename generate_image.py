@@ -11,16 +11,12 @@ from noise import *
 OUTPUT_SIZE = (100, 100)
 
 # noise = Noise1D()
-
 # x = np.linspace(0, 6, 1000)
 # y = np.array([])
-
 # for x1 in x:
 #     y = np.append(y, noise.noise(x1))
-
 # fig, ax = plt.subplots()  # Create a figure containing a single axes.
 # ax.plot(x, y)  # Plot some data on the axes.
-
 # plt.show()
 
 noise = Noise2D()
