@@ -8,7 +8,7 @@ from noise import *
 # (Hi Colten)
 OUTPUT_SIZE = (100, 100)
 # START_COORD = (0, -60, 0)
-START_COORD = (-328, -60, -136)
+START_COORD = (-158, -60, -216)
 
 x, y, z = START_COORD
 

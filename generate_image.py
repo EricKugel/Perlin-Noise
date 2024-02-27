@@ -17,12 +17,12 @@ OUTPUT_SIZE = (700, 700)
 # ax.plot(x, y)  # Plot some data on the axes.
 # plt.show()
 
-noise = Noise2D()
+noise = OctaveNoise2D()
 
 image = Image.new("RGB", OUTPUT_SIZE)
 pixels = image.load()
 for x in range(OUTPUT_SIZE[0]):
     for y in range(OUTPUT_SIZE[1]):
-        pixels[x,y] = (int(noise.noise(x, y)),) * 3
+        pixels[x,y] = (max(0, min(255, int(noise.noise(x, y)))),) * 3
 
-image.save("output.png")
+image.save("output_multiple_octaves.png")
